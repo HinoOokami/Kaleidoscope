@@ -106,11 +106,11 @@ namespace Kaleidoscope
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             drawGrid.Children.Clear();
+            drawCanvas.Children.Clear();
             FillCanvas();
             MakeBrush();
             drawGrid.Background = drawBox.MakeSolidBrush();
             FillGrid(0);
-            
         }
     }
 }
