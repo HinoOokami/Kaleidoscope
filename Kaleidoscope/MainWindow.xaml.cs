@@ -103,7 +103,7 @@ namespace Kaleidoscope
             FillGrid(angle);
         }
 
-        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             drawGrid.Children.Clear();
             drawCanvas.Children.Clear();

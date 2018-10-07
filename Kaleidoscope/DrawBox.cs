@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Drawing;
-using System.Windows;
+//using System.Drawing;
+//using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Shapes;
 using Color = System.Windows.Media.Color;
-using Image = System.Drawing.Image;
+//using Image = System.Drawing.Image;
 using Rectangle = System.Windows.Shapes.Rectangle;
 
 namespace Kaleidoscope
